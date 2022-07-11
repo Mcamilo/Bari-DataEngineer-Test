@@ -1,0 +1,21 @@
+---
+id: token
+album_type: string
+name: name
+total_tracks: int
+release_date: date
+type: string
+songs:
+- name: name
+  duration: float
+  genre: string
+  stats:
+    id: token
+    downloads: int
+    revenue: float
+    popularity: int
+  cover_image:
+    id: token
+    url: url
+    height: int
+    width: int
