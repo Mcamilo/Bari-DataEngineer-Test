@@ -1,10 +1,10 @@
-fake = Faker()
 from faker import Faker
 from pathlib import Path
 import json 
 import re
 import yaml
 
+fake = Faker()
 with open('sample_data.yml') as file:
     raw_config = yaml.load(file, Loader=yaml.FullLoader)
 
