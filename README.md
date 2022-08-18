@@ -10,7 +10,7 @@ Code exercise for a data engineer position at Bari Bank
 Install required packages for the mock module
 
 ```bash
-pip install requirement.txt
+pip install requirements.txt
 ```
 
 ## Run 
@@ -18,22 +18,11 @@ Run Jupyter and open the coding_test.ipynb notebook
 
 ## Mock 
 The mock module creates a mock s3/raw dir with data distributed by date as such:
+
 ```
-├── src
-│   ├── controller
-│   │   ├── **/*.css
-│   ├── views
-│   ├── model
-│   ├── index.js
-├── public
-│   ├── css
-│   │   ├── **/*.css
-│   ├── images
-│   ├── js
-│   ├── index.html
-├── dist (or build
-├── node_modules
-├── package.json
-├── package-lock.json 
-└── .gitignore
+├── s3
+│   ├── raw 
+│   │   ├── year-month-day
+│   │   │   ├── album_randomId.json
+
 ```
