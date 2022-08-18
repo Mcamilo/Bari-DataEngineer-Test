@@ -4,7 +4,7 @@ import json
 import re
 import yaml
 
-fake = faker()
+fake = Faker()
 with open('sample_data.yml') as file:
     raw_config = yaml.load(file, Loader=yaml.FullLoader)
 
